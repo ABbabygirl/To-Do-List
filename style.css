@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.todolist{
+    background-color: gainsboro;
+    padding: 1rem;
+}
+input{
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    padding: 1rem;
+    margin: 0.2rem 0;
+}
+    
+button{
+    border: none;
+    background-color:gray;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    width: 100%;
+
+}
+
+.tasks, .task{
+    padding: 1rem;
+}
+
+.task{
+    border: 1px solid grey;
+    margin: 0.2rem 0;
+}
+.task:hover{
+    background-color: white;
+    transition: 5s all ease-in-out;
+}
